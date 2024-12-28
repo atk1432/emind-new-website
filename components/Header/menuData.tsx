@@ -21,9 +21,9 @@ const menuData: Menu[] = [
   },
   {
     id: 2.3,
-    title: "Docs",
+    title: "Bài kiểm tra",
     newTab: false,
-    path: "/docs",
+    path: "https://e-mind.vercel.app/mindtest/dass21",
   },
   {
     id: 3,
