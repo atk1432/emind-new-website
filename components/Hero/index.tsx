@@ -56,7 +56,7 @@ const Hero = () => {
 
             <div className="animate_right hidden md:w-1/2 lg:block">
               <div className="relative 2xl:-mr-7.5">
-                <Image
+                {/* <Image
                   src="/images/shape/shape-01.png"
                   alt="shape"
                   width={46}
@@ -76,17 +76,17 @@ const Hero = () => {
                   width={21.64}
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
-                />
+                /> */}
                 <div className=" relative aspect-[700/444] w-full">
                   <Image
                     className="shadow-solid-l dark:hidden"
-                    src="/images/hero/hero-light.svg"
+                    src="/images/hero/mental.jpg"
                     alt="Hero"
                     fill
                   />
                   <Image
                     className="hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-dark.svg"
+                    src="/images/hero/mental.jpg"
                     alt="Hero"
                     fill
                   />

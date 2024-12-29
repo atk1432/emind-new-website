@@ -154,7 +154,7 @@ const Header = () => {
           </nav>
 
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
-            <ThemeToggler />
+            {/* <ThemeToggler /> */}
 
             {/* <Link
               href="https://github.com/NextJSTemplates/solid-nextjs"
@@ -169,6 +169,16 @@ const Header = () => {
             >
               Get Pro 🔥
             </Link> */}
+            <Link href={"https://tlu.edu.vn"} >
+              <Image
+                src="/images/logo/tlu.png"
+                alt="logo"
+                width={40}
+                height={40}
+                style={{ borderRadius: 100 }}
+                className="w-full dark:hidden"
+              />
+            </Link>
           </div>
         </div>
       </div>
